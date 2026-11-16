@@ -1,0 +1,23 @@
+.app {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+}
+
+.colunas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+@media (max-width: 760px) {
+  .colunas {
+    grid-template-columns: 1fr;
+  }
+}
+
+.painel {
+  background: var(--veludo);
+  padding: 20px;
+  border-radius: 12px;
+}

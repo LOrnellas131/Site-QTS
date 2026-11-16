@@ -1,0 +1,19 @@
+.campo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.campo input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  accent-color: var(--ouro);
+}
+.campo input[type="number"] {
+  width: 100px;
+  padding: 6px 8px;
+  border-radius: 6px;
+  border: 0;
+  font-size: 1rem;
+}

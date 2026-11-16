@@ -1,0 +1,30 @@
+.tabela-wrap {
+  overflow-x: auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--papel);
+  color: var(--texto);
+  border-radius: 8px;
+  overflow: hidden;
+}
+th,
+td {
+  padding: 10px 12px;
+  text-align: left;
+  border-bottom: 1px solid #d9ccd1;
+}
+th {
+  background: #e6dadf;
+  font-size: 0.9rem;
+}
+.linha-ativa td {
+  background: var(--ouro);
+  font-weight: 700;
+}
+.nota {
+  font-size: 0.85rem;
+  opacity: 0.8;
+  margin: 10px 0 0;
+}

@@ -1,0 +1,16 @@
+.resultado {
+  background: var(--papel);
+  color: var(--texto);
+  border-radius: 10px;
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border-left: 8px solid var(--ouro);
+}
+.resultado.erro {
+  border-left-color: var(--erro);
+}
+.resultado strong {
+  font-size: 1.15rem;
+}

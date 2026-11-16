@@ -1,0 +1,65 @@
+.tela {
+  text-align: center;
+  padding: 6px;
+  margin: 0 auto 20px;
+  width: 80%;
+  border-top: 4px solid var(--ouro);
+  border-radius: 50% 50% 0 0 / 12px 12px 0 0;
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+.fileira {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.letra {
+  width: 18px;
+  font-weight: 700;
+  opacity: 0.7;
+}
+
+.poltrona {
+  width: 40px;
+  height: 36px;
+  border: 0;
+  cursor: pointer;
+  background: var(--livre);
+  color: var(--papel);
+  font-weight: 600;
+  border-radius: 10px 10px 4px 4px;
+}
+.poltrona:hover {
+  filter: brightness(1.2);
+}
+.poltrona.ocupada {
+  background: #5c4b52;
+  color: #bfb2b7;
+  text-decoration: line-through;
+}
+.poltrona.ativa {
+  background: var(--ouro);
+  color: var(--texto);
+}
+
+.legenda {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 16px;
+  font-size: 0.85rem;
+}
+.legenda span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.poltrona.mini {
+  width: 16px;
+  height: 14px;
+  display: inline-block;
+  cursor: default;
+  border-radius: 5px 5px 2px 2px;
+}

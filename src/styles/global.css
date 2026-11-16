@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--cortina);
+  font-family:
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    sans-serif;
+  color: var(--papel);
+}
+
+h2 {
+  font-family: Georgia, serif;
+  font-size: 1.2rem;
+  margin: 0 0 12px;
+  font-weight: 600;
+}
+
+:focus-visible {
+  outline: 3px solid var(--ouro);
+  outline-offset: 2px;
+}
